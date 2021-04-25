@@ -11,3 +11,4 @@ Steps for NEST
 3. modify the dumbell.py file in the examples folder to match the specifications of the topology used in the NS3 simulation (here 1-1 dumbell topology was used)
 4. run the file (Superuser permission required), graphs would be plotted and saved automatically.
 
+By default the scales are different for the Ns3 and Nest  plots, here we have changed the scale while extracting the data point files from the "ss" output for Nest and then scaled it down and then plotted the graps via GnuPlot.
